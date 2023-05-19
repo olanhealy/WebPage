@@ -6,15 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Webpage</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-   <nav class="navbar">
+       
+    <!--       NavBar      --> 
+    <nav class="navbar">
     <div class="navbar__container">
-        <a href="/" id="navbar__logo">NEXT</a>
+        <a href="/" id="navbar__logo"><i class="fas fa-handshake"></i>  OLANS WEBPAGE</a>
         <div class="navbar__toggle" id="mobile-menu"></div>
-        <spin class="bar"></spin>
-        <spin class="bar"></spin>
-        <spin class="bar"></spin>
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
     </div>
     <ul class="navbar__menu">
         <li class="navbar__item">
@@ -31,5 +34,23 @@
         </li>
     </ul>
    </nav>
+  
+   <!--          Hero         -->
+
+   <div class="main">
+   <div class="main__container">
+   <div class="main__content">
+   <h1>OLANS WEBPAGE</h1>
+   <h2>SOFTWARE ENGINEER</h2>
+  <p>This is my webpage porfolio where I will showcase projects, do blogs and more!</p>
+  <button class="main__btn"><a href="/">Explore!</a></button>
+   </div>
+   <div class="main__img--container"></div>
+   <img src="images/OlanFace.png" alt="pic"  id="main__img">
+   </div>
+   </div>
+
+
+   <script src="app.js"></script>
 </body>
 </html>
